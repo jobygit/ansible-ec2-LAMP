@@ -12,11 +12,11 @@ This playbook will create a security group with ssh port open and spin up an Ec2
 
 
 ### vars_files:
-####aws_keys.yml\
+#### aws_keys.yml\
   aws_access_key:\
   aws_secret_key:\
   
-####mysql.vars\
+#### mysql.vars\
 ---\
 mysql_root_password: mysqlroot123\
 mysql_database: wordpress\
